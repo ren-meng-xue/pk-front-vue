@@ -1,0 +1,1 @@
+import{d as o,u as n,o as a,c as r,a as s,b as u,e as c}from"./index-73o6h9kG.js";const _=o({__name:"404",setup(d){const t=n();return(l,e)=>(a(),r("div",null,[s("404 done "),u("button",{onClick:e[0]||(e[0]=p=>c(t).back())},"返回")]))}});export{_ as default};
