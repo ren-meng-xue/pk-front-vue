@@ -1,11 +1,18 @@
 <template>
-  <div>default layout</div>
+  <div>
+    <RouterLink to="/">home</RouterLink>
+    <RouterLink to="/about">about</RouterLink>
+  
+  </div>
   <RouterView></RouterView>
 </template>
 
 <script setup lang="ts">
-console.log(1);
 
 </script>
 
 <style scoped></style>
+<route lang="yaml">
+  meta:
+    layout: default
+  </route>
